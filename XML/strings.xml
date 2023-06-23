@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ReservaYa</string>
+
+    <string-array name="opciones_spinner">
+        <item>Elige una opción</item>
+        <item>Hacer una reserva</item>
+        <item>Cancelar una reserva</item>
+        <item>Modificar una reserva</item>
+    </string-array>
+    <string-array name="num_comensales_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="primeros_platos_array">
+        <item>Risotto de champiñones</item>
+        <item>Espaguetis a la carbonara</item>
+        <item>Salmorejo</item>
+        <item>Tortilla española</item>
+        <item>Lasaña de verduras</item>
+        <item>Ensalada de tomate y mozzarella</item>
+        <item>Gazpacho</item>
+        <item>Croquetas de jamón</item>
+    </string-array>
+    <string-array name="menu_segundo_plato">
+        <item>Cochinillo asado</item>
+        <item>Rabo de toro</item>
+        <item>Bacalao a la vizcaína</item>
+        <item>Chuletón de ternera</item>
+        <item>Gambas al ajillo</item>
+        <item>Entrecot gallego madurado</item>
+        <item>Pulpo a la gallega</item>
+        <item>Paella de mariscos</item>
+    </string-array>
+    <string-array name="postres_array">
+        <item>Tarta de Santiago</item>
+        <item>Crema catalana</item>
+        <item>Arroz con leche</item>
+        <item>Flan casero</item>
+        <item>Fruta</item>
+        <item>Helado</item>
+    </string-array>
+
+</resources>

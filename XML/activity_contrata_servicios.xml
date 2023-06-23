@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ContrataServicios">
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre" />
+
+    <TextView
+        android:id="@+id/textViewCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo" />
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su correo electrónico" />
+
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha" />
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccione una fecha"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora" />
+
+    <EditText
+        android:id="@+id/editTextHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccione una hora"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/textViewNumComensales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Comensales" />
+
+    <Spinner
+        android:id="@+id/spinnerNumComensales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewPrimerPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primer plato" />
+
+    <Spinner
+        android:id="@+id/spinnerPrimerPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewSegundoPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segundo Plato" />
+
+    <Spinner
+        android:id="@+id/spinnerSegundoPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewPostre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postre" />
+
+    <Spinner
+        android:id="@+id/spinnerPostre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonRealizarReserva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Reserva" />
+
+</LinearLayout>

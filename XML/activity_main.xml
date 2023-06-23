@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Utilizo el gravity: bottom para que los elementos se apilen de abajo a arriba-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Texto"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:fontFamily="@font/julius_sans_one"
+        android:gravity="center"
+        android:text="Servicios"
+        android:textSize="48sp" />
+
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="293dp"
+        android:layout_height="143dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/online_res_18" />
+
+</LinearLayout>
